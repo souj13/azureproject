@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tokyo-adf-sj"
+		},
+		"ADLS_accountKey": {
+			"value": ""
+		},
+		"AzureSql_password": {
+			"value": ""
+		},
+		"ADLS_properties_typeProperties_url": {
+			"value": "https://tokyoolympicssj.dfs.core.windows.net/"
+		},
+		"AzureSql_properties_typeProperties_server": {
+			"value": "azuresjproject.database.windows.net"
+		},
+		"AzureSql_properties_typeProperties_database": {
+			"value": "azureprojectdbsour"
+		},
+		"AzureSql_properties_typeProperties_userName": {
+			"value": "adminsourabh"
+		},
+		"HttpServer1_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
