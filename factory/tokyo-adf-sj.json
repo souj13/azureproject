@@ -1,0 +1,15 @@
+{
+	"name": "tokyo-adf-sj",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d7862249-3c02-4d0d-9b1e-7200a4f1976e",
+		"tenantId": "4d00c7c5-a371-4f0b-bef5-fd275d8cafa4"
+	}
+}
