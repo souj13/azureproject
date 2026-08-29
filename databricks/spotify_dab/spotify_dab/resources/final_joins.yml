@@ -1,0 +1,21 @@
+resources:
+  jobs:
+    Spotify:
+      name: Spotify
+
+      tasks:
+        - task_key: Gold_Pipeline
+          pipeline_task:
+            pipeline_id: ${resources.pipelines.pipeline_gold_pipeline.id}
+
+        - task_key: Final_analytical_joins
+          depends_on:
+            - task_key: Gold_Pipeline
+          notebook_task:
+            notebook_path: ../src/gold/final_joins/jinja_notebook.ipynb
+            source: WORKSPACE
+
+      queue:
+        enabled: true
+
+      performance_target: PERFORMANCE_OPTIMIZED

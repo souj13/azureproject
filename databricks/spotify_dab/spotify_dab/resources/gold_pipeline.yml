@@ -1,0 +1,12 @@
+resources:
+  pipelines:
+    pipeline_gold_pipeline:
+      name: gold_pipeline
+      libraries:
+        - glob:
+            include: ../src/gold/LDP/transformations/**
+      schema: gold
+      photon: true
+      catalog: spotify_cata
+      serverless: true
+      root_path: ../src/gold/LDP
