@@ -83,7 +83,7 @@ Azure Data Factory orchestrates the ingestion process using a metadata-driven ap
 
 The pipeline retrieves table metadata, iterates through the configured tables, and performs incremental ingestion using watermark-based logic.
 
-![ADF Pipeline](docs/images/adf.png)
+![ADF Pipeline](docs/images/data_factory.png)
 
 ### Key Implementation Details
 
