@@ -10,6 +10,8 @@ The project implements a metadata-driven incremental ingestion pipeline that ext
 
 ![Project Architecture](docs/images/architecture.png)
 
+https://excalidraw.com/#json=xiDs2txvWzvk0IJnm_jFf,BlEWGg6HHI3xfi1GtAEPDA
+
 ---
 
 ## Project Overview
